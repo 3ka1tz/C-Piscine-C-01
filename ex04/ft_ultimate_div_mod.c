@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void	ft_ultimate_div_mov(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	tmp;
 
@@ -20,6 +20,6 @@ int	main(void)
 	n1 = 2;
 	a = &n0;
 	b = &n1;
-	ft_ultimate_div_mov(a, b);
+	ft_ultimate_div_mod(a, b);
 	printf("*a = %d, *b = %d\n", *a, *b);
 }
