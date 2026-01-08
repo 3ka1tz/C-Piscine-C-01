@@ -1,9 +1,10 @@
-#include <stdio.h>
-
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
+
+/*
+#include <stdio.h> // printf
 
 int	main(void)
 {
@@ -14,3 +15,4 @@ int	main(void)
 	ft_ft(nbr);
 	printf("*nbr = %d\n", *nbr);
 }
+*/

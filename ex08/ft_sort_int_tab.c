@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 void	ft_sort_int_tab(int *tab, int size)
 {
 	int	i;
@@ -19,6 +17,9 @@ void	ft_sort_int_tab(int *tab, int size)
 			++i;
 	}
 }
+
+/*
+#include <stdio.h> // printf
 
 int	main(void)
 {
@@ -40,3 +41,4 @@ int	main(void)
 		++i;
 	}
 }
+*/

@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	i;
@@ -15,6 +13,9 @@ void	ft_rev_int_tab(int *tab, int size)
 		--size;
 	}
 }
+
+/*
+#include <stdio.h> // printf
 
 int	main(void)
 {
@@ -36,3 +37,4 @@ int	main(void)
 		++i;
 	}
 }
+*/

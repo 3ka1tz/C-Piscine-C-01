@@ -1,13 +1,14 @@
-#include <stdio.h>
-
 void	ft_swap(int *a, int *b)
 {
-	int	tmp;
+	int	swp;
 
-	tmp = *a;
+	swp = *a;
 	*a = *b;
-	*b = tmp;
+	*b = swp;
 }
+
+/*
+#include <stdio.h> // printf
 
 int	main(void)
 {
@@ -23,3 +24,4 @@ int	main(void)
 	ft_swap(a, b);
 	printf("*a = %d, *b = %d\n", *a, *b);
 }
+*/
