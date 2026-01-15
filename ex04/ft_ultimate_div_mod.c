@@ -6,22 +6,3 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = *a / *b;
 	*b = tmp % *b;
 }
-
-/*
-#include <stdio.h> // printf
-
-int	main(void)
-{
-	int	n0;
-	int	n1;
-	int	*a;
-	int	*b;
-
-	n0 = 5;
-	n1 = 2;
-	a = &n0;
-	b = &n1;
-	ft_ultimate_div_mod(a, b);
-	printf("*a = %d, *b = %d\n", *a, *b);
-}
-*/
