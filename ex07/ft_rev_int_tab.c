@@ -9,7 +9,7 @@ void	ft_rev_int_tab(int *tab, int size)
 		tmp = tab[i];
 		tab[i] = tab[size - 1];
 		tab[size - 1] = tmp;
-		++i;
-		--size;
+		size--;
+		i++;
 	}
 }
